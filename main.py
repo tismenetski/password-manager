@@ -84,7 +84,7 @@ website_entry.grid(row = 1, column = 1 , columnspan = 2)
 website_entry.focus() # Puts the cursor on the specific entry
 
 email_entry = Entry(width = 35)
-email_entry.insert(0,"tismenetski@gmail.com") # pre-populate a field
+email_entry.insert(0,"some_mail@gmail.com") # pre-populate a field
 email_entry.grid(row = 2, column = 1 , columnspan = 2)
 
 password_entry = Entry(width = 21)
